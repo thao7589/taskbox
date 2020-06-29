@@ -1,0 +1,15 @@
+<!DOCTYPE f8component>
+
+<definition>
+{
+    id: "OpenSource",
+    label: "OpenSource Component",
+    renderable: true,
+    className: "OpenSourceServer",
+    dependencies: ["vue"]
+}
+</definition>
+<script>
+    const OpenSourceComponent = require('OpenSource/components/OpenSourceComponent')
+    exports.component = ComponentUI.createVueComponent(OpenSourceComponent, 4);
+</script>
