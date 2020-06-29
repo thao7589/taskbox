@@ -8,6 +8,6 @@ new Vue({
 }).$mount("#app");
 
 module.exports = {
-  stories: ['../src/components/*.stories.js'],
+  stories: ['../src/components/**/*.stories.js'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
 };
